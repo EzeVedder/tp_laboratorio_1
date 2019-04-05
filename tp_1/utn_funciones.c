@@ -7,20 +7,23 @@ int utn_getInt(int *pNumero,char *msg,char *msgError,int reintentos,int min,int 
     int retorno;
     int numero;
 
-    printf("%s",msg);
-    scanf("%d",&numero);
-    if(numero>min && numero<max)
+    while(reintentos>0)
     {
-        *pNumero = numero;
-        //break;
-        retorno = 0;
+        printf("%s",msg);
+        scanf("%d",&numero);
+        if(numero>min && numero<max)
+        {
+            *pNumero = numero;
+            break;
+            retorno = 0;
+        }
+        else
+        {
+            printf("%s",msgError);
+            retorno = -1;
+        }
+        reintentos--;
     }
-    else
-    {
-        printf("%s",msgError);
-        retorno = -1;
-    }
-
     return retorno;
 }
 

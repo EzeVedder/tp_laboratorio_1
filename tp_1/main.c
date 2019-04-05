@@ -5,12 +5,12 @@
 
 int main()
 {
-    int number1;
-    int number2;
-    int option;
+    //int number1;
+    //int number2;
+    int numero;
 
 
-    utn_getInt(&option,"Ingrese un numero: ","Error. Ingrese de nuevo.",3,0,100);
+    utn_getInt(&numero,"Ingrese un numero: ","Error. Ingrese de nuevo.\n",3,0,100);
 
 
 
