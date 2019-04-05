@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "utn_funciones.h"
 
 
 int main()
@@ -9,6 +10,7 @@ int main()
     int option;
 
 
+    utn_getIn
 
 
 

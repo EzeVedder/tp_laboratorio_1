@@ -8,10 +8,12 @@
  * \param msg char* mensaje mostrado al usuario para pedir el numero.
  * \param msgError char* mensaje de error mostrado al no cumplir
  * \param reintentos int cantidad de intentos que el usuario tiene permitido.
+ * \param min int rango minimo.
+ * \param max int rango maximo.
  * \return int devuelve 0 si esta ok, -1 si esta mal.
  *
  */
-int getInt(int *pNumero,char *msg,char *msgError,int reintentos);
+int utn_getInt(int *pNumero,char *msg,char *msgError,int reintentos,int min,int max);
 
 
 
@@ -26,7 +28,7 @@ int getInt(int *pNumero,char *msg,char *msgError,int reintentos);
  *
  */
 
-int showMenu(int *opcion,char *msg,char *msgError,int reintentos);
+int utn_showMenu(int *opcion,char *msg,char *msgError,int reintentos);
 
 
 
