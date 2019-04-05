@@ -14,10 +14,6 @@
  *
  */
 int utn_getInt(int *pNumero,char *msg,char *msgError,int reintentos,int min,int max);
-
-
-
-
 /** \brief funcion que permite desplegar un menu de opciones
  *
  * \param opcion int* param para guardar la opcion elegida del menu.
@@ -27,8 +23,7 @@ int utn_getInt(int *pNumero,char *msg,char *msgError,int reintentos,int min,int 
  * \return int devulve 0 si esta ok.
  *
  */
-
-int utn_showMenu(int *opcion,char *msg,char *msgError,int reintentos);
+int utn_showMenu(int *pOpcion);
 
 
 

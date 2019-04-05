@@ -11,7 +11,7 @@ int utn_getInt(int *pNumero,char *msg,char *msgError,int reintentos,int min,int 
     {
         printf("%s",msg);
         scanf("%d",&numero);
-        if(numero>min && numero<max)
+        if(numero>min && numero<max)//si el numero ingresado esta dentro del rango lo guardo y salgo del bucle.
         {
             *pNumero = numero;
             break;
@@ -28,41 +28,19 @@ int utn_getInt(int *pNumero,char *msg,char *msgError,int reintentos,int min,int 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*int utn_showMenu(int *opcion,char *msg,char *msgError,int reintentos)
+int utn_showMenu(int *pOpcion)
 {
-    int i;
-    int reintentos;
+    //int i;
+    int opcion;
+    int retorno;
 
-    printf("%s")
+    printf(" 1 -\n 2 -\n 3 - \n 4 -\n");
+    retorno = utn_getInt(&opcion,"Seleccione una opcion para continuar.\n","Error. No es una opcion valida, intente de nuevo.\n",3,0,6);
+    if(retorno)
+    {
+        //break;
+        *pOpcion = opcion;
+    }
 
-
-
-
-
-    return retorno;
-}*/
+    return 0;
+}
