@@ -10,7 +10,7 @@ int main()
     int option;
 
 
-    utn_getIn
+    utn_getInt(&option,"Ingrese un numero: ","Error. Ingrese de nuevo.",3,0,100);
 
 
 
