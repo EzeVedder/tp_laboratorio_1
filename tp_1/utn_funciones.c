@@ -34,7 +34,7 @@ int utn_showMenu(int *pOpcion)
     int opcion;
     int retorno;
 
-    printf(" 1 -\n 2 -\n 3 - \n 4 -\n");
+    printf(" 1 - Ingresar 1er operando\n 2 - Ingresar 2do operando\n 3 - Calcular todas las operaciones  \n   a)   \n   b)  \n   c)   \n   d)  \n   e)     \n 4 - Informar resultados\n 5 - Salir\n ");
     retorno = utn_getInt(&opcion,"Seleccione una opcion para continuar.\n","Error. No es una opcion valida, intente de nuevo.\n",3,0,6);
     if(retorno)
     {
