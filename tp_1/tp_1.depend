@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1554518681 source:/Users/ezepane/Documents/Documentos/UTN/tp_1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn_funciones.h"
+
+1554518580 /Users/ezepane/Documents/Documentos/UTN/tp_1/utn_funciones.h
+
+1554518675 source:/Users/ezepane/Documents/Documentos/UTN/tp_1/utn_calculator.c
+
+1554518386 source:/Users/ezepane/Documents/Documentos/UTN/tp_1/utn_funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"utn_calculator.h"
+
+1554518187 /Users/ezepane/Documents/Documentos/UTN/tp_1/utn_calculator.h
+
+1554518752 source:/Users/ezepane/Documents/Documentos/UTN/tp_laboratorio_1/tp_1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn_funciones.h"
+
+1554518580 /Users/ezepane/Documents/Documentos/UTN/tp_laboratorio_1/tp_1/utn_funciones.h
+
+1554518675 source:/Users/ezepane/Documents/Documentos/UTN/tp_laboratorio_1/tp_1/utn_calculator.c
+
+1554518386 source:/Users/ezepane/Documents/Documentos/UTN/tp_laboratorio_1/tp_1/utn_funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"utn_calculator.h"
+
+1554518187 /Users/ezepane/Documents/Documentos/UTN/tp_laboratorio_1/tp_1/utn_calculator.h
+
